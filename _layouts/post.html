@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!-- THIS IS THE END OF DEFAULT LAYOUT, BEGINNING OF INDEX/POST CONTENT -->
+<div class="rowBoundingBox" id="headerNavRowWrapper">
+  <div class = "columnBoundingBox" id="headerNavColumnWrapper">
+        <a href="http://erectlocution.com"><img src="http://erectlocution.com/images/masthead_final_090614_small.png" /></a>
+        <!-- <ul>
+          <li><a href="#">first</a></li>
+          <li><a href="#">second</a></li>
+          <li><a href="#">third</a></li>
+          </ul> --> <!-- for later use -->
+  </div> <!-- end of columnBoundingBox -->
+</div> <!-- end of rowBoundingBox -->
+<div class="rowBoundingBox" id="featuredRowWrapper">
+  <div class = "columnBoundingBox" id="featuredColumnWrapper">
+    <h2 class="postTitle">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="excerpt">
+        {{ content }}
+    </div>
+    <div class="postMeta">
+        {{ post.date | date_to_string }}
+    </div>
+  </div> <!-- end of columnBoundingBox -->
+</div> <!-- end of rowBoundingBox -->
