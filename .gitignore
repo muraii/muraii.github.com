@@ -1,5 +1,5 @@
 # Ignore the result of Jekyll #
 ###############################
-_site/
+# _site/
 WP-themeSourceFiles/
 *~

@@ -15,10 +15,11 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
     <div class="excerpt"><!--USING EXCERPT PLUGIN FROM stympy GIST-->
+        <!-- WILL MERELY USE YAML-BASED EXCERPT, NO PLUGIN -->
         {% if excerpt and post.excerpt %}
             {{ post.excerpt}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ post.excerpt2 }}
         {% endif %}
     </div>
     <div class="postMeta">

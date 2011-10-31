@@ -291,7 +291,7 @@ img.avatar {
   color: #999;
   }
 #deeper ul {
-  list-style-type: hiragana;
+  /* list-style-type: hiragana; */
   list-style-position: outside;
   margin-left: 25px;
   }
