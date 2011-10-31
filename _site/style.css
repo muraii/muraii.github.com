@@ -1,0 +1,297 @@
+/*Theme Name: Erectlocution
+Theme URI: http://erectlocution.com/
+Description: It started as only text, and I hung some colors and very few images on it.
+Version: 0.0.1
+Author: Daniel Black
+Author URI: http://erectlocution.com/
+The first fully from-scratch design I've ever done worth a damn, if only marginally so.*/
+
+/*::::::::::General::::::::::*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  }
+
+body {
+  font: 62.5%/1.5em helvetica, arial, sans-serif;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  }
+a {
+  text-decoration: none;
+  color: #009;
+  }
+a:link, a:visited, a:hover {
+  }
+h2 {
+  font-size: 1em;
+  }
+blockquote {
+  padding: 0px 25px 0px 35px;
+  color: #666;
+  }
+
+/*::::::::::Row Structure::::::::::*/
+
+.rowBoundingBox {
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+  }
+#headerNavRowWrapper {
+  background: black;
+  padding: 0px 0px 5px 5px;
+  }
+#featuredRowWrapper {
+  padding: 25px 0px;
+  }
+#blogTitleRowWrapper {
+  text-align: center;
+  font: bold 9em/1.5em helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  background: #000;
+  color: white;
+  margin: 0px auto;
+  }
+#recentRowWrapper {
+  }
+#notableRowWrapper {
+  }
+#footerRowWrapper {
+  background: /* #2f1508 */ #000;
+  border-top: 5px solid black;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  color: #ddd;
+  margin: 80px 0px 0px 0px;
+  }
+/* .interjectionRowWrapper {
+  background: black;
+  font: bold 2.5em/1.5em georgia, 'times new roman', serif;
+  padding: 10px 0px;
+  color: white;
+  } */
+.interjectionRowWrapper {
+  background: rgb(50, 50, 80);
+  font: normal 2.5em/1.5em georgia, 'times new roman', serif;
+  padding: 10px 0px;
+  color: white;
+  }
+  .interjectionRowWrapper a, .interjectionRowWrapper cite, .interjectionRowWrapper cite a {
+    color: #777;
+    }
+
+/*::::::::::COLUMNAL STRUCTURE::::::::::*/
+.columnBoundingBox {
+  width: 700px;
+  margin: 0px auto;
+  clear: both;
+  overflow: hidden;
+  }
+#headerNavColumnWrapper {
+  width: 100%;
+  }
+#featuredColumnWrapper {
+  padding: 10px;
+  font-family: georgia, 'times new roman', serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  }
+#blogTitleColumnWrapper {
+  width: 825px !important;
+  }
+#recentColumnWrapper {
+  /* border-bottom: 1px solid #ccc; */
+  }
+#notableColumnWrapper {
+  margin-top: 3px;
+  /* border-top: 1px solid #ccc; */
+  }
+.interjectionColumnWrapper {
+  width: 600px;
+  }
+#footerColumnWrapper {
+  /* width: 825px !important;  */
+  }
+
+/*::::::::::Excerpt and Post::::::::::*/
+
+div.excerpt, div.excerpt p {
+  display: inline;
+  }
+div.post {
+  font-size: 1.7em;
+  line-height: 1.6em;
+  }
+div.post p {
+  margin: .75em 0em;
+  }
+div.post a:link, div.post a:visited {
+  }
+div.post a:hover {
+  /*  color: #000;  border-bottom: 1px solid #ccc; */
+  }
+h2.postTitle, h2.postTitle a {
+  display: inline;
+  font-weight: normal;
+  color: #c30;
+  }
+h2.singlePostTitle, h2.singlePostTitle a {
+  font-family: georgia, 'times new roman', serif;
+  font-weight: normal;
+  font-size: 1.45em;
+  line-height: 1.35em;
+  color: #c30;
+  }
+h2.singlePostTitle a:link, h2.singlePostTitle a:visited, h2.singlePostTitle a:hover {
+  background: transparent;
+  border: 0px;
+  color: #c30;
+  }
+#qed {
+  text-align: right;
+  font-size: 2em;
+  }
+.postMeta {
+  font: .6em/1em helvetica, arial, sans-serif;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  color: #999;
+  }
+
+/*::::::::::Comments::::::::::*/
+
+.comments {
+  font-size: 1.25em !important;
+  margin: 40px 0px 0px 0px !important;
+  /* border-top: 1px solid grey; */
+  color: #333;
+  }
+.comments li {
+  padding: 5px;
+  }
+.comments p {
+  width: 575px;
+  }
+.comments p.meta {
+  color: #666;
+  }
+.alt {
+  background: rgb(245, 245, 245);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  }
+img.avatar {
+  display: none;
+  float: right;
+  margin: 0px;
+  }
+
+
+/*::::::::::Section-specific Styling::::::::::*/
+
+#headerNavColumnWrapper img {
+  float: left;
+  border: 0px;
+  }
+#headerNavColumnWrapper ul {
+  float: right;
+  margin: 0px 20px 0px 0px;
+  }
+#headerNavColumnWrapper ul li {
+  display: inline;
+  margin: 0px 10px 0px 0px;
+  }
+#headerNavColumnWrapper ul li a {
+  color: white;
+  text-decoration: none;
+  font: normal 1.1em/1.1em helvetica, arial, sans;
+  padding: 3px;
+  }
+#headerNavColumnWrapper ul li a:link, #headerNavColumnWrapper ul li a:visited {
+  }
+#headerNavColumnWrapper ul li a:hover {
+  color: black;
+  background: white;
+  }
+#recentLeft, #recentRight {
+  padding: 5px 5px 5px 0px;
+  width: 330px;
+  float: left;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  }
+#recentLeft {
+  margin: 10px 0px 10px 0px;
+  }
+#recentRight {
+  margin: 10px 0px 10px 20px;
+  }
+#sectionNotableFirst, #sectionNotableSecond, #sectionNotableThird {
+  float: left;
+  width: 200px;
+  padding: 5px 5px 5px 0px;
+  font: 1.4em/1.3em helvetica, arial, sans-serif;
+  }
+#sectionNotableFirst {
+  margin: 10px 0px 10px 0px;
+  }
+#sectionNotableSecond, #sectionNotableThird {
+  margin: 10px 0px 10px 30px;
+  }
+#contactForm, #deeper{
+  float: left;
+  width: /* 380px */ 320px;
+  padding: 5px 5px 5px 0px;
+  font-family: georgia, 'times new roman', serif;
+  }
+#contactForm {
+  margin: 0px 0px 0px 0px;
+  padding-right: 25px;
+  }
+.contactText {
+  border: 0px;
+  width: 320px;
+  color: #eee;
+  background: #333;
+  }
+.contactSubmit {
+  border: 0px;
+  color: #999;
+  background: #333;
+  }
+#contactForm p, #deeper p {
+  margin: 10px 0px;
+  /* color: rgb(225,240,255); */
+  font-size: 1.1em;
+  line-height: 1.5em;
+  }
+#contactForm p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.2em !important;
+  }
+#contactForm h3, #deeper h3 {
+  color: /* #36c */ #fff;
+  font-size: 3.0em;
+  line-height: 1.75em;
+  text-align: center;
+  }
+#contactForm a {
+  color: #c30;
+  text-decoration: none;
+  }
+#contactForm a:link, #contactForm a:visited {
+  }
+#contactForm a:hover {
+  border-bottom: 1px solid #c30;
+  }
+#deeper {
+  margin: 0px 0px 0px 20px;
+  color: #999;
+  }
+#deeper ul {
+  /* list-style-type: hiragana; */
+  list-style-position: outside;
+  margin-left: 25px;
+  }
