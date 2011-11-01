@@ -1,0 +1,22 @@
+---
+layout: post
+title: The tailbone's connected to the funny bone.
+tags:
+- essay
+published: true
+excerpt: It's not just our hubris, but our ignorance thereof, that damns us.
+---
+
+It's not just our hubris, but our ignorance thereof, that damns us.
+
+The first point is rather subtle, or seems so given the enthusiasm with which the standard of intelligent design is being raised. The creative capacity of the human species is lauded as one of the characteristics that significantly separate us from other species, and is fundamental to viewing humans as undoubtedly greater. We look to our [semiconductor chipsets](http://www.amd.com), our [skyscrapers](http://www.wtcsitememorial.org/), our [movable type](http://en.wikipedia.org/wiki/Johann_Gutenberg), our [perfect novels](http://www.ccel.org/d/dostoevsky/karamozov/karamozov.html), and our [weapons of mass destruction](http://www.defenselink.mil/specials/destruction/) and proclaim, awfully, &ldquo;Holy shit, we own.&rdquo; To us, these results of our creative endeavors are without the bounds of nature.
+
+No surprise, then, that upon observing some phenomenon in nature which bears strikingly similar complexity as we've come to understand creations wrought by our hands and minds, we conclude said phenomenon is the product of some creative force. Of course that force would have to be intelligent, must be conscious and create with intent, because that's what we do. That force, though, is not human.
+
+Let's assume there is an intelligent designer. It's no feat whatsoever to [find fault with this designer's product](http://www.skepticreport.com/creationism/vestigial.htm "Skeptical about the Engineer...") (though this is by no means perfectly demonstrative of the claim, as [some responses](http://www.godandscience.org/evolution/designgonebad.html) note). I have also heard, more than once and from more than one source, that engineers interested in the topic generally consider the human body to be poorly engineered. Our only saving grace, it would seem, is our intelligence, as, without it, we surely would not prosper as we do. However, a useful argument can be framed which would call even this conclusion into question. It is a long way from self-evident that we are, in fact, the product of an *intelligent* designer, if a product of any designer we are.
+
+Proponents of intelligent design might have their bets hedged. It's likely that someone, upon reading the preceding paragraph, would respond, &ldquo;Well, sure, maybe the coccyx *seems* ill-planned; but you can't claim to know the Creator's plan! You're overstepping the bounds of your understanding, sir, and I'll have none of that.&rdquo; To which I would reply, &ldquo;I was only following your lead, my fellow, given that you've deemed your understanding of nature to be quite conclusive on the matter of what occurs naturally and what must be created to exist.&rdquo;
+
+&ldquo;Further,&rdquo; I'd add, straightening my smoking jacket, &ldquo;it might appear to the wary observer that it is you who has overstepped the bounds of your understanding more grossly, decided as you have that whatever you might make with some hardware and a free afternoon is beyond the means of the remaining entirety of the universe...except an agent fashioned after humans. Could it be, rather, that 'creation' is not the province of intelligence at all, but instead just one other dynamic of the universe, like entropy? Is it really so odd to think that we 'create' because we are wholly within nature, inextricably, and are no less an agent of nature, an organ, than gravity or stars or diseases; and, further, is it really so odd to think that, as an organ of nature, we should propagate a dynamism found elsewhere in nature, producing output which had not been observed prior? What if 'creation' is a product of the universe, and not vice versa?&rdquo;
+
+How different, really, are these conceptions? What is really so different about explaining the development of some observed phenomena with an appeal to this Greatness over that one? We may debate the details but not the Greatness. That is, no one really presumes to understand everything about everything, or even everything about much of anything; and whether they're particle physicists or a pastors (or both), no matter in which of these camps they might fall, for each contributor of this large discussion there is a threshold beyond which we seem commonly to say, &ldquo;Well, beyond that, we just don't know.&rdquo;

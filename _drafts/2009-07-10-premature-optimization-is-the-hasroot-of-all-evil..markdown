@@ -1,0 +1,10 @@
+---
+layout: post
+title: Premature optimization is the hasroot of all evil.
+tags:
+ []
+published: false
+---
+Even sloppy math must take as its precedent the axioms it aims to employ. Every pragmatist must underpin her decision structure, however loosely, on the same combinatorial landscape as does every idealist.
+
+Sloppiness works, and sometimes it works better than fastidiousness. Still, don't think you can, through a focus on expediency, escape the need to consider the sources and implications of your actions. It's a hoax.

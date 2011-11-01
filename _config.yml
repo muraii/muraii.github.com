@@ -1,2 +1,3 @@
 exclude: WP-themeSourceFiles, wordpress.xml, erectlocution.wordpress.2011-09-01.xml, CNAME
 auto: true
+markdown: rdiscount

@@ -16,10 +16,10 @@ title: Home
     </h2>
     <div class="excerpt"><!--USING EXCERPT PLUGIN FROM stympy GIST-->
         <!-- WILL MERELY USE YAML-BASED EXCERPT, NO PLUGIN -->
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.excerpt2 }}
+            {{ content }}
         {% endif %}
     </div>
     <div class="postMeta">
@@ -43,10 +43,10 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
      <div class="excerpt">
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ content }}
         {% endif %}
      </div>
     {% endfor %} 
@@ -57,10 +57,10 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
      <div class="excerpt">
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ content }}
         {% endif %}
      </div>
     {% endfor %} 
@@ -84,10 +84,10 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
      <div class="excerpt">
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ content }}
         {% endif %}
      </div>
     {% endfor %} 
@@ -98,10 +98,10 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
      <div class="excerpt">
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ content }}
         {% endif %}
      </div>
     {% endfor %} 
@@ -112,10 +112,10 @@ title: Home
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
      <div class="excerpt">
-        {% if excerpt and post.excerpt %}
-            {{ post.excerpt}}
+        {% if post.excerpt %}
+            {{ post.excerpt | markdownify}}
         {% else %}
-            {{ post.content | mark_excerpt }}
+            {{ content }}
         {% endif %}
      </div>
     {% endfor %} 
