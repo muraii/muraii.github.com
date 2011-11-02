@@ -7,6 +7,8 @@ published: true
 excerpt: Of all our social memes, I suggest that the greatest compels some to describe helpful normative domains, and compels others to seek these out.
 ---
 
+<!-- Of all our social memes, I suggest that the greatest compels some to describe helpful normative domains, and compels others to seek these out. -->
+
 I came across the following, via [kottke.org](http://www.kottke.org/remainder/08/07/16052.html "Jason Kottke"), and while it's not quite as concise as [other efforts](http://hi-and-low.typepad.com/my_weblog/2008/01/a-new-year.html), ["Taleb's top life tips"](http://business.timesonline.co.uk/tol/business/economics/article4022091.ece?print=yes&randnum=1212475411171 "Nassim Nicholas Taleb's top life tips") nevertheless makes for interesting brain fodder. I'd care to hear which of these are particularly interesting to you.
 
 > 1.  Scepticism is effortful and costly. It is better to be sceptical about matters of large consequences, and be imperfect, foolish and human in the small and the aesthetic.

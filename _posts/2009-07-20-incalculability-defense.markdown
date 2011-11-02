@@ -8,7 +8,7 @@ excerpt: We talk a good deal about pragmatism. It's as if being pragmatic sidest
 
 ---
 
-We talk a good deal about pragmatism. It's as if being pragmatic sidesteps more difficult issues. Some might say, "Don't try to be right. Just try to be right enough, right now." I understand this. Trying to consider every configuration of choices yields the same sort of error your calculator returns when you divide anything by zero. There are too many.
+<!-- We talk a good deal about pragmatism. It's as if being pragmatic sidesteps more difficult issues. Some might say, "Don't try to be right. Just try to be right enough, right now." I understand this. Trying to consider every configuration of choices yields the same sort of error your calculator returns when you divide anything by zero. There are too many. -->
 
 Rather than fret over this [maddening](http://erectlocution.com/boxing/2005/12/20/on-that-part-of-your-terra-cotta-boilerplate-that-always-manages-to-eat-away-at-whatever-you-call-a-nervous-humdrummery/) feat, it's simpler to look at the moment. *What do I need right now?* we ask. *What can I do today? I don't care where I'm going in a year, or five years, or for the rest of my life; where do I want to be tomorrow, or maybe even this weekend?* This scope maps more cleanly to our faculties; like predicting weather some five years in the future, predicting what will be right for me next year or the year after relies on understanding too many variables. I won't be a long-range climatologist; I'll just be a weather man. *Is it raining today, and if so, do I need to close the windows? Is it raining tomorrow, and if so, will I need to take an umbrella?*
 

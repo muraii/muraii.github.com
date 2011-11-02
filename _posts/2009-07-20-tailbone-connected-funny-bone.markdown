@@ -7,7 +7,7 @@ published: true
 excerpt: It's not just our hubris, but our ignorance thereof, that damns us.
 ---
 
-It's not just our hubris, but our ignorance thereof, that damns us.
+<!-- It's not just our hubris, but our ignorance thereof, that damns us. -->
 
 The first point is rather subtle, or seems so given the enthusiasm with which the standard of intelligent design is being raised. The creative capacity of the human species is lauded as one of the characteristics that significantly separate us from other species, and is fundamental to viewing humans as undoubtedly greater. We look to our [semiconductor chipsets](http://www.amd.com), our [skyscrapers](http://www.wtcsitememorial.org/), our [movable type](http://en.wikipedia.org/wiki/Johann_Gutenberg), our [perfect novels](http://www.ccel.org/d/dostoevsky/karamozov/karamozov.html), and our [weapons of mass destruction](http://www.defenselink.mil/specials/destruction/) and proclaim, awfully, &ldquo;Holy shit, we own.&rdquo; To us, these results of our creative endeavors are without the bounds of nature.
 

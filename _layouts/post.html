@@ -19,10 +19,30 @@ layout: default
         <a href="{{ page.url }}">{{ page.title }}</a>
     </h2>
     <div class="excerpt">
-        {{ content }}
+        {{ page.excerpt | markdownify }}
     </div>
     <div class="postMeta">
         {{ page.date | date_to_string }}
     </div>
   </div> <!-- end of columnBoundingBox -->
 </div> <!-- end of rowBoundingBox -->
+  <div class="rowBoundingBox">
+    <div class="columnBoundingBox">
+      <div class="post">
+        {{ content }}
+        <p id="qed">&#9744;</p>
+      </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- experimenting with comments -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+      <div class="post comments">
+        <?php comments_template(); ?>
+      </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~end experiment~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    </div> <!-- end of columnBoundingBox -->
+  </div> <!-- end of rowBoundingBox -->

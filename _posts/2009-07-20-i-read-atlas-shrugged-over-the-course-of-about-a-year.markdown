@@ -7,7 +7,7 @@ published: true
 excerpt: Yes, a year; maybe more. I wrote an essay in the in an effort to earn/win cash for school. Alas, my piece was dumped with the rest of the slush pile, not quite cutting the muster. In the two years since, I've encountered almost unanimously antipathy for Rand's novel, of which more later. Here, though, the essay, mostly untouched.
 ---
 
-Yes, a year; maybe more. I wrote an essay in the in an effort to earn/win cash for school. Alas, my piece was dumped with the rest of the slush pile, not quite cutting the muster. In the two years since, I've encountered almost unanimously antipathy for Rand's novel, of which more later. Here, though, the essay, mostly untouched.
+<!-- Yes, a year; maybe more. I wrote an essay in the in an effort to earn/win cash for school. Alas, my piece was dumped with the rest of the slush pile, not quite cutting the muster. In the two years since, I've encountered almost unanimously antipathy for Rand's novel, of which more later. Here, though, the essay, mostly untouched. -->
 
 So far as the brightest among us can tell, the universe has at its core a rule that something cannot arise without a source. There is no effect without a beckoning cause. Energy results from a translation of matter, and matter from a translation of energy.
 

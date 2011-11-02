@@ -7,7 +7,7 @@ published: true
 excerpt: Two superficially unrelated blog posts caught the same glint in my eye. Herewith my earnest and hopefully readable attempt to create value by shredding their contexts.
 ---
 
-Two superficially unrelated blog posts caught the same glint in my eye. Herewith my earnest and hopefully readable attempt to create value by shredding their contexts.
+<!-- Two superficially unrelated blog posts caught the same glint in my eye. Herewith my earnest and hopefully readable attempt to create value by shredding their contexts. -->
 
 ### The Yin
 
