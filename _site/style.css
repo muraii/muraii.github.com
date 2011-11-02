@@ -295,3 +295,8 @@ img.avatar {
   list-style-position: outside;
   margin-left: 25px;
   }
+#deeper img.dodo {
+margin: 10px auto auto 40px;
+padding: 0px;
+border: 10px solid #222;
+}
