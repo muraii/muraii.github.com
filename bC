@@ -1,6 +1,7 @@
 #!/bin/bash
 
-jekyll --server
+# jekyll --server
+jekyll
 
 #Replace relative URLs with absolute ones in the feed
 sed -f _scripts/absolute_urls.sed _site/feed/index.html > /tmp/atom.xml
