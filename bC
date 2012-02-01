@@ -1,0 +1,8 @@
+#!/bin/bash
+
+jekyll --server
+
+#Replace relative URLs with absolute ones in the feed
+sed -f _scripts/absolute_urls.sed _site/feed/index.html > /tmp/atom.xml
+mv /tmp/atom.xml _site/feed/index.html
+echo "Successfully created RSS feed."

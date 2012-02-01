@@ -1,5 +1,5 @@
-exclude: WP-themeSourceFiles, wordpress.xml, erectlocution.wordpress.2011-09-01.xml, CNAME
-# auto: true
-auto: false
+exclude: WP-themeSourceFiles, wordpress.xml, erectlocution.wordpress.2011-09-01.xml, CNAME, bC, bP
+auto: true
+# auto: false
 server: false
 markdown: rdiscount

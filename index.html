@@ -25,7 +25,7 @@ title: Home
     <div class="postMeta">
         {{ post.date | date_to_string }}
     </div>
-    {% endfor %} 
+        <!-- the endfor would go here normally --> 
   </div> <!-- end of columnBoundingBox -->
 </div> <!-- end of rowBoundingBox -->
 <div class="rowBoundingBox" id="blogTitleRowWrapper">
@@ -35,6 +35,22 @@ title: Home
    <img style="margin: 15px 0px; padding: 0px;" src="/images/masthead_final_090614.png" />
  </div> <!-- end of columnBoundingBox -->
 </div> <!-- end of rowBoundingBox -->
+
+<!-- ###### adding the full content of a single post here -->
+
+  <div class="rowBoundingBox">
+    <div class="columnBoundingBox">
+      <div class="post">
+        {{ content }}
+        <p id="qed">&#9744;</p>
+      </div>
+        {% endfor %}
+    </div> <!-- end of columnBoundingBox -->
+  </div> <!-- end of rowBoundingBox -->
+
+
+
+<!-- ###### /adding the full content of a single post here -->
 <div class="rowBoundingBox" id="recentRowWrapper">
  <div class="columnBoundingBox" id="recentColumnWrapper">
    <div id="recentLeft">
