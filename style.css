@@ -150,7 +150,7 @@ h2.singlePostTitle a:link, h2.singlePostTitle a:visited, h2.singlePostTitle a:ho
   color: #c30;
   }
 #qed {
-  text-align: right;
+  text-align: center;
   font-size: 2em;
   }
 .postMeta {
