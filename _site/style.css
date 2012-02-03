@@ -151,7 +151,8 @@ h2.singlePostTitle a:link, h2.singlePostTitle a:visited, h2.singlePostTitle a:ho
   }
 #qed {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  margin: 1.5em 0em;
   }
 .postMeta {
   font: .6em/1em helvetica, arial, sans-serif;
