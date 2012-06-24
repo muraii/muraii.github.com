@@ -1,8 +1,8 @@
 ---
 layout: post
-title: About
+title: My name is Daniel Black. 
 published: true
-excerpt: My name is Daniel Black. I am on the internet. I am a person. I am a father and a husband. I [was](http://erectlocution.com/2011/01/23/on-december-12-2010-i-graduated-from-the-university-of-cincinnati-with-a-degree-in-mathematics/) a [university](http://www.uc.edu) student of mathematics ([originally](http://www.muohio.edu) math and physics). I am a less formalized student of thinking, of [philosophy](http://academy.galilean-library.org/index.php), of [writing](http://www.amazon.com/Writing-Style-Conversations-Art-2nd/dp/0130257133/ref=sr_1_1?ie=UTF8&qid=1248544415&sr=8-1), and of [how to make decisions](http://en.wikipedia.org/wiki/Decision_theory).
+excerpt: I am on the internet. I am a person. I am a father and a husband. I [was](http://erectlocution.com/2011/01/23/on-december-12-2010-i-graduated-from-the-university-of-cincinnati-with-a-degree-in-mathematics/) a [university](http://www.uc.edu) student of mathematics ([originally](http://www.muohio.edu) math and physics). I am a less formalized student of thinking, of [philosophy](http://academy.galilean-library.org/index.php), of [writing](http://www.amazon.com/Writing-Style-Conversations-Art-2nd/dp/0130257133/ref=sr_1_1?ie=UTF8&qid=1248544415&sr=8-1), and of [how to make decisions](http://en.wikipedia.org/wiki/Decision_theory).
 date: 2011-11-02
 
 ---
