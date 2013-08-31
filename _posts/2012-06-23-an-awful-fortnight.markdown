@@ -8,7 +8,7 @@ excerpt: It's Friday night. The good kind, with five days of paid pantomime behi
 
 ---
 
-"I need an idea."
+"I need a good idea."
 
 "Charity simulation. It's like Jerry's kids but recursive or something." Jonas waves his hands, apparently trying to invoke recursion somatically.
 
