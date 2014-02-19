@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Songs of Offal
+title: Songs are offal.
 tags:
  - essay
 published: true 
