@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<!-- THIS IS THE END OF DEFAULT LAYOUT, BEGINNING OF INDEX/POST CONTENT -->
+<div class="rowBoundingBox" id="headerNavRowWrapper">
+  <div class = "columnBoundingBox" id="headerNavColumnWrapper">
+        <a href="http://erectlocution.com"><img src="/images/masthead_final_090614_small.png" /></a>
+        <!-- <ul>
+          <li><a href="#">first</a></li>
+          <li><a href="#">second</a></li>
+          <li><a href="#">third</a></li>
+          </ul> --> <!-- for later use -->
+  </div> <!-- end of columnBoundingBox -->
+</div> <!-- end of rowBoundingBox -->
+<div class="rowBoundingBox" id="featuredRowWrapper">
+  <div class = "columnBoundingBox" id="featuredColumnWrapper">
+    <h2 class="postTitle">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    </h2>
+    <!-- <div class="excerpt">
+        {{ page.excerpt | markdownify }}
+    </div> -->
+    <div class="postMeta">
+        {{ page.date | date_to_string }}
+    </div>
+  </div> <!-- end of columnBoundingBox -->
+</div> <!-- end of rowBoundingBox -->
+  <div class="rowBoundingBox">
+    <div class="columnBoundingBox">
+      <div class="post">
+        {{ content }}
+        <p id="qed">&#9744;</p>
+      </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- experimenting with comments -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+      <div class="post comments">
+        <?php comments_template(); ?>
+      </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~end experiment~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    </div> <!-- end of columnBoundingBox -->
+  </div> <!-- end of rowBoundingBox -->
