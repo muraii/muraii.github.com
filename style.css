@@ -222,15 +222,18 @@ img.avatar {
   line-height: 1.5em;
   color: 
   }
+#recentTitleParagraph a {
+  background: #eee;
+  }
 #recentTitleParagraph a:hover {
-  /* border-bottom: 1px solid #eee; */
-  background: #ccc;
+  color: black;
+  background: #fff;
   }
 #recentTitleParagraph h2 {
   color: #330;
   }
 #recentTitleParagraph.paraTitleSep {
-  padding: 0px 5px;
+  padding: 0px 10px;
   }
 #recentLeft, #recentRight {
   padding: 5px 5px 5px 0px;
