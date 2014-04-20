@@ -218,12 +218,17 @@ img.avatar {
   }
 #recentTitleParagraph {
   padding: 5px 5px 5px 0px;
-  font-size: 1.6em;
+  font-size: 1.8em;
   line-height: 1.5em;
+  color: 
   }
 #recentTitleParagraph a:hover {
   /* border-bottom: 1px solid #eee; */
   background: #ccc;
+  }
+#recentTitleParagraph h2 {
+  display: block;
+  color: #330;
   }
 #recentLeft, #recentRight {
   padding: 5px 5px 5px 0px;
