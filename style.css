@@ -216,6 +216,11 @@ img.avatar {
   color: black;
   background: white;
   }
+#recentTitleParagraph {
+  padding: 5px 5px 5px 0px;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  }
 #recentLeft, #recentRight {
   padding: 5px 5px 5px 0px;
   width: 330px;
