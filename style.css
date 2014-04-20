@@ -222,7 +222,8 @@ img.avatar {
   line-height: 1.5em;
   }
 #recentTitleParagraph a:hover {
-  border-bottom: 1px solid #eee
+  /* border-bottom: 1px solid #eee; */
+  background: #ccc;
   }
 #recentLeft, #recentRight {
   padding: 5px 5px 5px 0px;
