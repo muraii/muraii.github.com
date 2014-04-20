@@ -61,14 +61,6 @@ title: Home
 
 <!-- ###### /adding the full content of a single post here -->
 
-<div class="rowBoundingBox" id="recentRowWrapper">
- <div class="columnBoundingBox" id="recentColumnWrapper">
-   <div id="recentTitleParagraph">
-    {% for post in site.posts offset: 1 limit: 10 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    {% endfor %} 
 
 <div class="rowBoundingBox" id="recentRowWrapper">
  <div class="columnBoundingBox" id="recentColumnWrapper">
