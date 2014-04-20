@@ -219,7 +219,8 @@ img.avatar {
 #recentTitleParagraph {
   padding: 5px 5px 5px 0px;
   font-size: 1.6em;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
+  line-height: 2.5em;
   color: 
   }
 #recentTitleParagraph a {
