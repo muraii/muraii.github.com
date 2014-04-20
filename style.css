@@ -221,6 +221,9 @@ img.avatar {
   font-size: 1.6em;
   line-height: 1.5em;
   }
+#recentTitleParagraph.a:hover {
+  border-bottom: 1px solid #eee
+  }
 #recentLeft, #recentRight {
   padding: 5px 5px 5px 0px;
   width: 330px;
