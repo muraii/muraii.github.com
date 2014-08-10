@@ -35,7 +35,7 @@ title: Home
    <!-- THIS WILL NEED TO BE SHOWN ONLY IN THE INDEX TEMPLATE, NOT THE POST TEMPLATE -->
    <!-- <img style="margin: 15px 0px; padding: 0px;" src="/images/masthead_final_090614.png" /> -->
    <!-- </div> -- ><!-- end of columnBoundingBox -->
-</div> <!-- end of rowBoundingBox -->
+<!-- </div> -- > <!-- end of rowBoundingBox -->
 
 <!-- ###### adding the full content of a single post here -->
 
@@ -79,38 +79,6 @@ title: Home
   </div>
 </div>
 
-<div class="rowBoundingBox" id="recentRowWrapper">
- <div class="columnBoundingBox" id="recentColumnWrapper">
-   <div id="recentLeft">
-    {% for post in site.posts offset: 1 limit: 1 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-     <div class="excerpt">
-        {% if post.excerpt %}
-            {{ post.excerpt | markdownify}}
-        {% else %}
-            {{ content }}
-        {% endif %}
-     </div>
-    {% endfor %} 
-   </div>
-  <div id="recentRight">
-    {% for post in site.posts offset: 2 limit: 1 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-     <div class="excerpt">
-        {% if post.excerpt %}
-            {{ post.excerpt | markdownify}}
-        {% else %}
-            {{ content }}
-        {% endif %}
-     </div>
-    {% endfor %} 
-   </div>
- </div> <!-- end of recentColumnWrapper -->
-</div> <!-- end of rowBoundingBox -->
 <div class="rowBoundingBox interjectionRowWrapper">
   <div class="columnBoundingBox interjectionColumnWrapper">
     <div>
@@ -119,51 +87,5 @@ title: Home
       </script>
     </div>
   </div>  <!-- end of interjectionColumnWrapper -->
-</div> <!-- end of rowBoundingBox -->
-<div class="rowBoundingBox" id="notableRowWrapper">
- <div class="columnBoundingBox" id="notableColumnWrapper">
-   <div id="sectionNotableFirst">
-    {% for post in site.posts offset: 3 limit: 1 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-     <div class="excerpt">
-        {% if post.excerpt %}
-            {{ post.excerpt | markdownify}}
-        {% else %}
-            {{ content }}
-        {% endif %}
-     </div>
-    {% endfor %} 
-   </div> <!-- end of sectionNotableFirst -->
-   <div id="sectionNotableSecond">
-    {% for post in site.posts offset: 4 limit: 1 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-     <div class="excerpt">
-        {% if post.excerpt %}
-            {{ post.excerpt | markdownify}}
-        {% else %}
-            {{ content }}
-        {% endif %}
-     </div>
-    {% endfor %} 
-   </div> <!-- end of sectionNotableSecond -->
-   <div id="sectionNotableThird">
-    {% for post in site.posts offset: 5 limit: 1 %}
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-     <div class="excerpt">
-        {% if post.excerpt %}
-            {{ post.excerpt | markdownify}}
-        {% else %}
-            {{ content }}
-        {% endif %}
-     </div>
-    {% endfor %} 
-   </div> <!-- end of sectionNotableThird -->
- </div> <!-- end of notableColumnWrapper -->
 </div> <!-- end of rowBoundingBox -->
 <!-- THIS IS THE BEGINNING OF DEFAULT LAYOUT, END OF INDEX/POST CONTENT -->
