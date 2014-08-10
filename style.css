@@ -64,7 +64,7 @@ blockquote {
   font-size: 1.4em;
   line-height: 1.4em;
   color: #ddd;
-  margin: 0px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
   }
 /* .interjectionRowWrapper {
   background: black;
@@ -76,7 +76,7 @@ blockquote {
   background: rgb(50, 50, 80);
   font: normal 2.5em/1.5em georgia, 'times new roman', serif;
   padding: 10px 0px;
-  margin-top: 50px;
+  margin: 50px 0px;
   color: white;
   }
   .interjectionRowWrapper a, .interjectionRowWrapper cite, .interjectionRowWrapper cite a {
