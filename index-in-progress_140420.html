@@ -64,11 +64,16 @@ title: Home
 <div class="rowBoundingBox" id="recentRowWrapper">
  <div class="columnBoundingBox" id="recentColumnWrapper">
    <div id="recentTitleParagraph">
-    {% for post in site.posts offset: 1 limit: 10 %}
+    {% for post in site.posts offset: 1 limit: 9 %}
      <h2 class="postTitle">
         <a href="{{ post.url }}">{{ post.title }}</a>
      </h2>
      <span class="paraTitleSep">&#937;</span>
+    {% endfor %} 
+    {% for post in site.posts offset: 10 limit: 1 %}
+     <h2 class="postTitle">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+     </h2>
     {% endfor %} 
    </div>
   </div>
