@@ -76,7 +76,7 @@ blockquote {
   background: rgb(50, 50, 80);
   font: normal 2.5em/1.5em georgia, 'times new roman', serif;
   padding: 10px 0px;
-  margin: 10px 0px 0px 0px !important;
+  margin: 50px 0px 0px 0px !important;
   color: white;
   }
   .interjectionRowWrapper a, .interjectionRowWrapper cite, .interjectionRowWrapper cite a {
