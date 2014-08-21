@@ -76,7 +76,7 @@ title: Home
    <div id="recentTitleParagraph">
     {% for post in site.posts offset: 1 limit: 49 %}
      <div>
-     <p style="display: inline;">
+     <p style="display: inline; font-family: monospace;">
         {{ post.date | date_to_string }}
      </p>
      <h2 class="postTitle">
