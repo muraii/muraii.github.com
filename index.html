@@ -76,12 +76,12 @@ title: Home
    <div id="recentTitleParagraph">
     {% for post in site.posts offset: 1 limit: 49 %}
      <div>
-     <h2 class="postTitle">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-     </h2>
      <p style="display: inline;">
         {{ post.date | date_to_string }}
      </p>
+     <h2 class="postTitle">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+     </h2>
      </div>
      <!-- <span class="paraTitleSep">&#937;</span> -->
     {% endfor %} 
