@@ -6,4 +6,4 @@ tags:
 published: true
 excerpt: 
 ---
-<a href="http://youtu.be/8igSA8HdR_Q"><img src="/images/boehner.jpg" /></a>
+<div><a href="http://youtu.be/8igSA8HdR_Q"><img src="/images/boehner.jpg"/></a></div>
