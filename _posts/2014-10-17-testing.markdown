@@ -1,9 +1,9 @@
 ---
 layout: post
-title:testing
+title: testing
 tags:
  - essay
 published: true
-excerpt: 
+excerpt: Testing? 
 ---
 <a href="http://example.com">testing</a>
