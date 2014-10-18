@@ -6,4 +6,4 @@ tags:
 published: true
 excerpt: 
 ---
-<iframe width="420" height="315" src="//www.youtube.com/embed/8igSA8HdR_Q" frameborder="0" allowfullscreen></iframe>
+<div><iframe width="420" height="315" src="//www.youtube.com/embed/8igSA8HdR_Q" frameborder="0" allowfullscreen></iframe></div>
