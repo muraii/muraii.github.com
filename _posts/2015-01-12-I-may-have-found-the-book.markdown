@@ -3,10 +3,10 @@ layout: post
 title: I may have found The Book.
 tags:
  - essay
-published: false
+published: true
 excerpt: I realize it's a little silly to think there is a single book or source regardless of medium that will settle my mathematical ills. Depending on the scale chosen, that settlement will require one, a few, all, or all possible books, nevermind that the field will certainly outstrip any possible number of published summaries. Mathematics as a collection of fields is verdant. It grows. Within it, probablity and statistics--which many may consider largely exhausted--continue to adapt and find new soil in which to take root.
 ---
-That's a horrible cacophony of analogies in service of saying that no number of any of us, let alone any one of us, has found all that's to be found about probability or analysis or number theory or whatever. Still, a good book can make inching into any one field far easier, or at least more time-efficient. It is not without irony then that I'd land on a book ambitiously titled [All of Statistics: A Concise Course in Statistical Inference](http://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/0387402721 title="All of Statistics: A Concise Course in Statistical Inference").
+That's a horrible cacophony of analogies in service of saying that no number of any of us, let alone any one of us, has found all that's to be found about probability or analysis or number theory or whatever. Still, a good book can make inching into any one field far easier, or at least more time-efficient. It is not without irony then that I'd land on a book ambitiously titled [All of Statistics: A Concise Course in Statistical Inference](http://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/0387402721 "All of Statistics: A Concise Course in Statistical Inference").
 
 Probability and statistics in their various guises are intrinsically interesting but most every book I've looked through is either a lamentable collection of recipes with no theoretical footing or is steeped in notation and a tiring venture into theory that makes self-study (especially the nocturnal sort) daunting. No problem with either, except when you need something else. The opening pages of All of Statistics speaks to this very conundrum:
 
