@@ -42,6 +42,7 @@ blockquote {
 #headerNavRowWrapper {
   background: black;
   padding: 0px 0px 5px 5px;
+  position: fixed;
   }
 #featuredRowWrapper {
   padding: 25px 0px;
