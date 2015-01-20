@@ -15,7 +15,8 @@ The first fully from-scratch design I've ever done worth a damn, if only margina
 
 body {
   font: 62.5%/1.5em helvetica, arial, sans-serif;
-  border-top: 10px solid black;
+  /*border-top: 10px solid black;*/
+  border-top: 0px solid black;
   border-bottom: 10px solid black;
   }
 a {
