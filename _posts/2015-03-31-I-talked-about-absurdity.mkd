@@ -4,7 +4,7 @@ title: I talked about absurdity and then did nothing.
 tags:
  - essay
 published: true
-comments: true
+comments: false
 excerpt: I'm still sitting there soaking it in like UV rays on fragile skin. But now the day lasts ten or fifteen hours, not eight. I fear there's a tumor somewhere.
 ---
 <!-- I talked about absurdity and then did nothing. I'm still sitting there soaking it in like UV rays on fragile skin. But now the day lasts ten or fifteen hours, not eight. I fear there's a tumor somewhere. -->
