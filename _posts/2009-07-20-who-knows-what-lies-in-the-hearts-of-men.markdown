@@ -3,7 +3,7 @@ layout: post
 title: Who knows what lies in the hearts of men?
 tags:
 - essay
-published: true
+published: false
 excerpt: The Shadow knows; and you don't want to. Conspicuous monsters aren't monsters. They're neighbors. This is why we still delight in dirty jokes; we all know their subtext, and can often predict their punchlines. We need these contexts, these distorting frames of awareness, to make sense of the world. We know we won't achieve parity of understanding and reality; our hypotheses will always need refinement. We accept that all our knowledge is approximation, and *need* it to be so.
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Does prayer beget opposable thumbs?
 tags:
  - essay
-published: true
+published: false
 excerpt: I found this in [a discussion about the study in the Galilean Library](http://academy.galilean-library.org/showthread.php?t=6693), which is a wonderful resource for thoughtful, and almost more importantly, civil discussion across the philosophical spectrum. I added a (typically long-winded) point of consideration, summarized by saying that, as much as "God" might just be a label for the collection of "all things we think we don't know, or which are currently ineffable and beyond our scrutiny," then any such study, however expensive, really aims to investigate just one in a class of cultural metaphors, models, for things we want to understand.
 
 ---

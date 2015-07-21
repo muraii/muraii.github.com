@@ -3,7 +3,7 @@ layout: post
 title: I'm afraid to write. I'm afraid to sketch. Sometimes, I'm afraid to put on a shirt.
 tags:
  - essay
-published: true
+published: false
 excerpt: I sweat a little in the intimidating glare of a blank canvas of any material, e.g., canvas, paper, LCD, blackboard. Each new stroke, each new keypress, seems only to gather me closer to the most imminent and unavoidable failure. I would not have honestly written that in 1989, when I claimed I would write my own exhaustive dictionary of the universe. Somewhere in the interim, I came to join this fear as a daily companion. Think *[The Last Unicorn](http://www.imdb.com/title/tt0084237/)*, who&mdash;upon learning of regret&mdash;slowly loses her magic. Except my case might be so common as to be archetypical.
 ---
 

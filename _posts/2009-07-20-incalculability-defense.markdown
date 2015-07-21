@@ -3,7 +3,7 @@ layout: post
 title: Is incalculability a defense for ignorance?
 tags:
 - essay
-published: true
+published: false
 excerpt: We talk a good deal about pragmatism. It's as if being pragmatic sidesteps more difficult issues. Some might say, "Don't try to be right. Just try to be right enough, right now." I understand this. Trying to consider every configuration of choices yields the same sort of error your calculator returns when you divide anything by zero. There are too many.
 
 ---

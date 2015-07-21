@@ -3,7 +3,7 @@ layout: post
 title: The tailbone's connected to the funny bone.
 tags:
 - essay
-published: true
+published: false
 excerpt: It's not just our hubris, but our ignorance thereof, that damns us.
 ---
 

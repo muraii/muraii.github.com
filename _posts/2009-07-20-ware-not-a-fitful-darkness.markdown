@@ -3,7 +3,7 @@ layout: post
 title: Even with a balanced coin, it's no mean feat to make sense of the world.
 tags:
 - essay
-published: true
+published: false
 excerpt: It's quite daunting to have only yourself to rely upon for guidance toward purpose. It doesn't follow, however, that the truth need not be dire. Invoking fruitlessness or direness as illustrations or proof of absurdity would seem relevant only if we take as given a need for life, a purpose in it other than as a means to excrete and feed other life by dying. That effectively cuts to the heart of the issue, and begs the question of whether or not humanity exists to serve a designed purpose.
 ---
 

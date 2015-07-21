@@ -3,7 +3,7 @@ layout: post
 title: I read Atlas Shrugged over the course of about a year.
 tags:
 - essay
-published: true
+published: false
 excerpt: Yes, a year; maybe more. I wrote an essay in the in an effort to earn/win cash for school. Alas, my piece was dumped with the rest of the slush pile, not quite cutting the muster. In the two years since, I've encountered almost unanimously antipathy for Rand's novel, of which more later. Here, though, the essay, mostly untouched.
 ---
 

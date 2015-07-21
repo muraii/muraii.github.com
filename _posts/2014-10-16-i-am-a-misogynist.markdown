@@ -3,7 +3,7 @@ layout: post
 title: I am a misogynist.
 tags:
  - essay
-published: true 
+published: false
 excerpt: It's true insofar as a four-word sentence can be true. I don't celebrate it. I don't practice it in any conscious fashion, though I certainly do consciously act in ways that are misogynistic. 
 ---
 <!-- It's true insofar as a four-word sentence can be true. I don't celebrate it. I don't practice it in any conscious fashion, though I certainly do consciously act in ways that are misogynistic.-->

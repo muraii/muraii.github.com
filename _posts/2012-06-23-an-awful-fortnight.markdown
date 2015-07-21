@@ -3,7 +3,7 @@ layout: post
 title: Mom is out. 
 tags:
  - essay
-published: true
+published: false
 excerpt: It's Friday night. The good kind, with five days of paid pantomime behind and two-and-then-some days of awkward ambition ahead. Two blokes of obvious disrepair, mental-like, sit on opposing couches, a milk crate filling the divide. "No good" is how they'd later describe, probably in unison, what it is they're up to. For some value of "good".
 
 ---

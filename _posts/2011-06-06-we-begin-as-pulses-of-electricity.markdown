@@ -3,7 +3,7 @@ layout: post
 title: We begin as pulses of electricity.
 tags:
 - essay
-published: true
+published: false
 excerpt: Patterns develop. Stimuli arriving in near-simultaneity become linked structurally. Impressions are formed, impressions in the physical structure of the brain, affecting the strength and reach of signal passage. The brain grows in sophistication, in connectedness. Basic if not simple functions, those coded for in DNA, are used as the building blocks of yet higher connections and functions. We bend the brain's capacity to detect visual features, like vertical, horizontal, and diagonal lines, into the ability to recognize a chair or a face. We feel pain, associate it with the visual and spatial attributes of the stovetop, and learn to avoid it with our fingers.
 ---
 

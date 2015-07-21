@@ -3,7 +3,7 @@ layout: post
 title: I'm learning to be a better node in the human network.
 tags:
  - essay
-published: true
+published: false
 excerpt: Several times across several different online publishing systems and over 15 years, nevermind paper journals, I've lamented about the delta between my actual and my preferred existential experience. I resisted for some time, and still sometimes do, becoming an active component of the human social web. 
 ---
 

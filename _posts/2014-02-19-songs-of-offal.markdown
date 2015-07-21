@@ -3,7 +3,7 @@ layout: post
 title: Songs are offal.
 tags:
  - essay
-published: true 
+published: false
 excerpt: The songwriter has already done her part, has already exposed her emotion or philosophy or spirit. If I ignore the words, she won't ever know. It's not what it's about for her. I don't specifically factor into her goal.
 ---
 <!-- The songwriter has already done her part, has already exposed her emotion or philosophy or spirit. If I ignore the words, she won't ever know. It's not what it's about for her. I don't specifically factor into her goal. -->

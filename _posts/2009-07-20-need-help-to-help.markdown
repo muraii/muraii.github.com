@@ -3,7 +3,7 @@ layout: post
 title: I need help, and I need to help.
 tags:
 - essay
-published: true
+published: false
 excerpt: Of all our social memes, I suggest that the greatest compels some to describe helpful normative domains, and compels others to seek these out.
 ---
 

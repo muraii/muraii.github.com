@@ -3,7 +3,7 @@ layout: post
 title: Let me put you in your place.
 tags:
 - essay
-published: true
+published: false
 excerpt: I sometimes run into a VP who comports himself with all the delicacy of a Khanian pillager. He sits in our corporate mythos as the God of Tactless Condescension. He wears gruffness like it was tailor-fit. He is, in short, an asshole.
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Some folks deified George Carlin, which I find wholly ironic.
 tags:
 - essay
-published: true
+published: false
 excerpt: Carlin died in June of 2008, at the age of 71. It's hard to estimate Carlin's value in the Western culture; his "Seven Words are bit less immodest today, and no matter his one-time popularity, their deflation is not significantly his doing.
 ---
 

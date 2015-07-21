@@ -3,7 +3,7 @@ layout: post
 title: Anger has a place.
 tags:
  - essay
-published: true
+published: false 
 excerpt: There's a reason (probably several) we evolved a capacity for it. I don't know why, though I'm sure we've got some guesses. Let's say, though, that we strip away connotations, let anger be just as valid a response as glee or trepidation. You're free to be as angry as you want, whenever you want. Except? Yeah, except you've got a budget. Like dopamine and fat, anger has a utility but too much probably isn't doing you any favors. Moderation. But holy hell, guys, moderation is tough, requires a lot of patience and nuance and I don't know about you but I'm trying to figure out so many things all at once that please, Moderation, you could be a little easier, dude.
 
 ---

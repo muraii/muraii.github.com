@@ -3,7 +3,7 @@ layout: post
 title: People and me, we're a hot and cold thing.
 tags:
 - essay
-published: true
+published: false 
 excerpt: I get lost in a flesh-colored sea of mundanity, and feel powerless by virtue of membership. I may be awed by a feat of community, only to be horrified by the quickness of depravity. Hot and cold. Hidden somewhere in my DNA is whatever code whose execution makes me need community. I don't pretend to understand it, and I'm nearing the end of my too-cool aloofness toward the idea of sharing my concern with others, even putting theirs above mine. Each time I roll my eyes at Christian goodness expressed as a bumper sticker, I'm hoping someone sees it. I want to share my weak outrage, cleverly if possible.
 
 ---

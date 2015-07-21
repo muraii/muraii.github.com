@@ -3,7 +3,7 @@ layout: post
 title: I reject the notion of rationality in an absurd system.
 tags:
  - essay
-published: true
+published: false
 excerpt: I've been stewing, this last time, for days. About the deftness with which I can _not_ contribute to the company for whom I work. About my "skillset" and what it says about me modulus the intersection of my current job, the job I want, and the job my company wants me to do. This recalls a melange of self-deprecation during my 12-year stint at a prior company, during which I flew a gradual but inescapable downward trajectory on the graphs of both self-worth and peer respect, together with a near-daily reflection on (sometimes unintentional) feedback I've received from my current employer, especially over the past year.
 ---
 I have, as most everyone I've met, a vast store of aptitude in the shape of stem cells, undifferentiated units which can with the proper bath of nutrients and necessity become any one of millions of possible tissues or other cell structures. I have expended no little effort so directing much of my aptitude, never quite satisfied with the result and always looking to the next opportunity for further differentiation, further development.
