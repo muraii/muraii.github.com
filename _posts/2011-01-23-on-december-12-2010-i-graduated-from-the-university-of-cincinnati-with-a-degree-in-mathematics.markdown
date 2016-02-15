@@ -3,7 +3,7 @@ layout: post
 title: On December 12, 2010, I graduated from the University of Cincinnati.
 tags:
 - essay
-published: false
+published: true
 excerpt: I'm still trying to figure out what I think about that. I started in February of 1998, studying physics at [Miami University (Ohio)](http://muohio.edu), and soon after decided that I might as well pursue a dual math/physics major. Some years later, logistical practicality prevailed, and I chose to study only mathematics. I'm still skeptical that I ever did.
 ---
 
