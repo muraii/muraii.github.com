@@ -35,8 +35,9 @@ layout: default
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- experimenting with comments -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div><p>This is the value of "comments": {{ comments }}</p></div>
     {% if comments %}
-    <p>Other testing.</p>
+    <div><p>Other testing.</p></div>
       {% include comments.html %}
     {% endif %}
 
