@@ -1,0 +1,318 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,parskip,mathrsfs}
+
+%opening
+\title{Computability Structure of Inner Product Spaces}
+\author{Daniel Black}
+
+%custom sections
+\newcommand{\theorem}{\subsubsection{Theorem}}
+\newcommand{\lemma}{\subsubsection{Lemma}}
+\newcommand{\proposition}{\subsubsection{Proposition}}
+\newcommand{\definition}{\subsubsection{Definition}}
+\newcommand{\corollary}{\subsubsection{Corollary}}
+\newcommand{\axiom}{\subsubsection{Axiom}}
+
+%\newcounter{secCount}
+
+\begin{document}
+
+\maketitle
+
+%\setcounter{secnumdepth}{2}
+%\setcounter{section}{2}
+
+\section{Introduction}
+Inner product spaces are very useful tools in the theories of functional analysis, partial differential equations, and physics. As computers are playing an ever larger role in solving problems arising from mathematics, physics, and engineering, it becomes essential to know which operators defined on inner product spaces can be computed on digital computers and which cannot, and, furthermore, which computable operations are practically feasible and which are only theoretically possible. There have been several studies on these problems.  Further, Hilbert spaces---complete inner product spaces---find frequent application in the study of quantum mechanics, signal processing, and quantum computation.  As the Hilbert space is such a powerful tool, the tractability of their computational evaluation becomes increasingly important.
+
+We begin by defining computability for real numbers, and extend the definition axiomatically to include vector spaces and inner products.  We then investigate examples of inner products spaces which are, and are not, computable.  Finally, we discuss computability structures on Hilbert spaces.
+
+\section{Preliminaries}
+
+In this section, we introduce the concepts of computable real numbers and computable real functions. More details can be found in \cite{PR89}.
+
+Denote by $\mathbb{N}$, $\mathbb{Q}$ and $\mathbb{R}^n$ respectively the set of natural
+numbers containing $0$, the set of rational numbers, and the $n$-dimensional Euclidean space. We assume that the reader is familiar
+with the notion of Turing machines (TM) (cf. \cite{Tur36}) and a computable function from $\mathbb N$ to $\mathbb N$. Roughly speaking, a TM can
+be treated as a computer program written in one's favorite programming language and a function $e:{\mathbb N}\to{\mathbb N}$ is computable if there is a Turing machine that outputs $e(n)$ upon input $n$ for all $n\in {\mathbb N}$. The following definitions can be found in \cite{PR89}.
+
+\begin{definition}
+\begin{enumerate}
+\item  A sequence $\{r_{n}\}$ of rational numbers is called a {\em computable sequence}
+if there are three computable functions $a,b$ and $c$ from $\mathbb{N}$ to
+$\mathbb{N}$ such that
+for all $n\in\mathbb{N}$,
+\[ r_{n}=(-1)^{a(n)}\frac{b(n)}{c(n)+1} \]
+
+\item  A real number $x$ is called {\em computable} if there is a computable sequence $\{ r_n\}$ of rational numbers such that $r_n$ quickly converges to $x$, that is
+    \[ |x-r_n| \leq 2^{-n} \quad \mbox{for all $n\in {\mathbb N}$} \]
+
+\item  A sequence $\{x_{k}\}_{k\in\mathbb{N}}$ of real numbers is {\em computable}
+if there are three computable functions $a,b,c$
+from $\mathbb{N}^{2}$ to $\mathbb{N}$ such that, for all
+$k,n\in\mathbb{N}$,
+\[
+\left|  (-1)^{a(k,n)}\frac
+{b(k,n)}{c(k,n)+1}-x_{k}\right|  \leq\frac{1}{2^{n}}.
+\]
+\end{enumerate}
+\end{definition}
+
+We now come to the definition of a computable function $f: [a, b]\to {\mathbb R}$. Again this definition can be found in \cite{PR89}.
+
+\begin{definition}
+Let $a$ and $b$ be two computable real numbers. A function $f:[a, b]\to {\mathbb R}$ is {\em computable} if
+\begin{itemize}
+\item[(1)] $f$ is {\em sequentially computable}, i.e., $f$ maps every computable sequence of real numbers in $[a, b]$ into a computable sequence of real numbers; and
+\item[(2)] $f$ is effectively uniformly continuous on $[a, b]$, i.e. there exists a computable function $e:{\mathbb N}\to{\mathbb N}$ such that, for all points $x, y\in [a, b]$,
+    \[ |x-y|\leq 2^{-e(n)} \quad \mbox{implies} \quad |f(x)-f(y)|\leq 2^{-n} \]
+    \end{itemize}
+    \end{definition}
+    
+Or, equivalently, we say $f$ is computable if there exists a computable sequence $\{P_n\}$ of polynomials with rational coefficients such that
+\[\|f - P_n\|_{C[a,b]} = \max_{a \leq x \leq b}|f(x) - P_{n}(x)| \leq 2^{-n}\]
+
+for all $n \in \mathbb{N}$.
+
+By either definition, all rational numbers are computable reals. It can be proved that the familiar constants such as $e$, $\pi$ as well as all 
+basic functions such as polynomials with rational coefficients, $\sin x$, $\cos x$, $e^{x}$, and $\ln x$ are computable functions on any computable intervals. (An interval is called computable if its two endpoints are computable reals.) On the other hand, since there are only countably many computable functions on $\mathbb N$, there are only countably many computable real numbers; thus most of the reals are not computable. 
+
+\section{Inner product spaces}
+
+
+To introduce a computability structure on an inner product space, let's first recall the definition of the inner space. 
+
+\begin{definition}
+ An \emph{inner product space} is a vector space $V$ over a field $F$ together with a map $\langle \cdot,\cdot \rangle : V \times V \to F$ such that the following conditions hold for $v_1, v_2, v_3 \in V$ and $\alpha, \beta \in F$:
+
+ \begin{itemize}
+  \item[(1)] (linearity in first term) $\langle\alpha v_1+v_2,v_3 \rangle = \alpha\langle v_1,v_3 \rangle + \langle v_2,v_3 \rangle$
+  \item[(2)] (conjugate symmetry) $\langle v_1, v_2 \rangle = \overline{\langle v_2, v_1 \rangle}$
+  \item[(3)] (positive definiteness) $\langle v_1, v_1 \rangle \geq 0$; and $\langle v_1, v_1 \rangle = 0 \leftrightarrow v_1 = 0$
+  \item[(4)] (norm) The norm induced by the inner product is defined $\left\|x\right\|_{\langle\rangle} = \sqrt{\langle x, x \rangle}$.
+ \end{itemize}
+
+\end{definition}
+
+Inner product spaces abound.  The set $\mathbb{R}$ of real numbers is an inner product space, that is, it is a vector space together with the inner product defined $\langle x, y \rangle = xy$ for $x, y \in \mathbb{R}$.  From this we see that $\mathbb{R}$ is an inner product space, with norm $\left\|x\right\| = \sqrt{x^2} = \left|x\right|$. For another example, take the set $C\left[-1, 1\right]$ of all continuous real-valued functions defined on the interval $\left[-1, 1\right]$, together with the inner product defined
+\[\langle f, g \rangle = \int_{-1}^{1} f(x){g(x)}dx.\]
+
+The norm induced by this inner product is
+\[\left\|f\right\|_{\langle\rangle} = \sqrt{\int_{-1}^{1}\left|f(x)\right|^2dx}.\]
+
+\section{Computability Structure on an Inner Product Space}
+
+Our aim is to invoke a computability structure on an arbitrary inner product space $X$.  By ``computability structure,'' we mean a collection $\mathscr{C}$ of sequences $\{x_n\}, x \in X$, satisfying the following axioms I and II.  Sequences in $\mathscr{C}$ are called computable sequences in $X$.  The following axioms provide an infrastructure with which to determine these computable attributes.
+
+\begin{list}{}{}
+ \item \textbf{axiom I} (linear forms) Let $\{x_n\}$ and $\left\{y_n\right\}$ be computable sequences in $X$, let $\left\{\alpha_{nk}\right\}$ and $\left\{\beta_{nk}\right\}$ be computable double sequences of real or complex numbers, and let $d:\mathbb{N}\to\mathbb{N}$ be a recursive function.  Then the sequence
+\[s_n = \displaystyle\sum_{k = 0}^{d(n)} \left\{\alpha_{nk}x_k + \beta_{nk}y_k\right\}\]
+ 
+ is computable in $X$.
+ \item \textbf{axiom II} (inner product) Let $\left\{x_n\right\}$ and $\left\{y_m\right\}$ be computable sequences in $X$.  We denote the map $\langle \cdot,\cdot \rangle:X\times X \to F$ as 
+\[\langle x_n, y_m \rangle = \alpha_{nm} \in F.\]
+ 
+ Then we say $\left\{\alpha_{mn}\right\}$ is a computable double sequence in $F$.  This is the inner product of $\left\{x_n \right\}$ and $\left\{y_m\right\}$.
+ \item \textbf{axiom III} (norm) If $\left\{x_{n}\right\}$ is a computable sequence in $X$, then the norms $\left\{\|x_n\|\right\}$ form a computable sequence in $F$.
+\end{list}
+
+For example, let $\mathscr{C}$ be the collection of computable sequences in $\mathbb{R}$.  Define the inner product on $\mathbb{R}$ as
+\[\langle x_n,y_m \rangle = x_ny_m.\]
+
+We claim $x_ny_m$ is computable, and so claim that $\mathscr{C}$ is a computability structure on $\mathbb{R}$.  To show this, we must demonstrate that $\left\{r_{kn}s_{km}\right\} \to \left\{x_{n}y_{m}\right\}$.  Consider that $\left\{x_n\right\}$ computable implies that $\exists$ a computable sequence $\left\{r_{kn}\right\}$ and a recursive function $d:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ such that, for $N \in \mathbb{N}$,
+\[\left|r_{kn} - x_n\right| < 2^{-N}\]
+
+for $k > d(n, N)$.  Similarly for $\left\{y_m\right\}$ and $\left\{s_km\right\}$, for a recursive function \newline$e:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ and for $k > e(m, N)$.  Define
+\begin{align*}
+ \lefteqn{\alpha(n,m,N) = } \\
+ & & \max\{e(n,\left|r_{(d(n,N)+1)n}\right| + 1 + \left|s_{(e(m,N)+1)m}\right| + 1 + 4N), \\
+ & & d(m,\left|s_{(d(m,N)+1)m}\right| + 1 + \left|r_{(e(n,N)+1)n}\right| + 1 + 4N)\}.
+\end{align*}
+
+
+Choose $p > \alpha(n,m,N)$, and observe that
+\begin{align*}
+\left|r_{pn}s_{pm} - x_{n}y_{m}\right| \\
+& = \left|r_{pn}s_{pm} - s_{pm}x_n + s_{pm}x_n - x_{n}y_{m}\right|  \\
+& = \left|s_{pm}\left(r_{pn} - x_n\right) + x_n\left(s_{pm} - y_m\right)\right| \\
+& \leq \left|s_{pm}\left(r_{pn} - x_n\right)\right| + \left|x_n\left(s_{pm} - y_m\right)\right| \\
+& \leq \left|s_{pm}\right| \cdot 2^{-\left(\left|r_{(d(n,N)+1)n}\right| + 1 + \left|s_{(e(m,N)+1)m}\right| + 1 + 4N\right)} \\ 
+& + \left|x_n\right| \cdot 2^{-\left(\left|r_{(d(n,N)+1)n}\right| + 1 + \left|s_{(e(m,N)+1)m}\right| + 1 + 4N\right)}.
+\end{align*}
+
+Since $\left|r_{pn} - x_n\right| \leq 2^{-N}$ and $\left|s_{pm} - y_m\right| \leq 2^{-N}$, it follows that $\left|x_n\right| \leq \left|r_{pn}\right| + 2^{-N}$ and $\left|y_m\right| \leq \left|s_{pm}\right| + 2^{-N}$.  Further, it follows from these facts that
+\[\left|x_n\right| \leq \left|r_{(d(n,N)+1)n}\right| + 2^{-N}\]
+
+and
+\[\left|s_{pm}\right| \leq \left|s_{(e(m,N)+1)m}\right| + 2\cdot2^{-N}.\]
+
+Therefore, 
+\begin{align*}
+\left|r_{pn}s_{pm} - x_{n}y_{m}\right| \leq \\
+& \left(\left|s_{(e(m,N)+1)m}\right| + 2\cdot2^{-N}\right)\cdot 2^{-\left(\left|r_{(d(n,N)+1)n}\right| + 1 + \left|s_{(e(m,N)+1)m}\right| + 1 + 4N\right)} \\
+& + \left(\left|r_{(d(n,N)+1)n}\right| + 2^{-N}\right)\cdot 2^{-\left(\left|r_{(d(n,N)+1)n}\right| + 1 + \left|s_{(e(m,N)+1)m}\right| + 1 + 4N\right)}.
+\end{align*}
+
+Cancelling terms, we can see that
+\[\left|r_{pn}s_{pm} - x_{n}y_{m}\right| < 2^{-N}\]
+
+and so $x_{n}y_{m}$ is computable by definition.
+
+As another example, consider $C\left[-1,1\right]$, the set of all continuous functions on $\left[-1,1\right]$.  We can similarly collect all computable sequences of continuous functions into a subset $\mathscr{C}$ of $C\left[-1,1\right]$.  To show that $\mathscr{C}$ is an inner product space, we need to demonstrate that axioms I - III are satisfied.  It is shown in \cite{PR89} that $\mathscr{C}$ satisfies axiom I (linear forms).  We prove that $\mathscr{C}$ satisfies axiom II, where we define the inner product, for all $f, g \in \mathscr{C}$, as
+\[\langle f, g \rangle = \int_{-1}^{1}f(x)g(x)dx,\]
+
+and therefore, $\mathscr{C}$ is a computability structure on the inner product space $C\left[-1, 1\right]$.
+
+To claim $\mathscr{C}$ satisfies axiom II, we must show that for any computable sequences $\left\{f_{n}\right\}, \left\{g_{m}\right\} \in \mathscr{C}$, their inner product
+\begin{equation}
+\label{1}
+\int_{-1}^{1}\left\{f_{n}\right\}\left\{g_{m}\right\}dx
+\end{equation}
+
+is a computable double sequence of real numbers.  We show that for computable $f, g \in \mathscr{C}$, their inner product
+\[\int_{-1}^{1}f(x)g(x)dx\]
+
+is a computable real number.  The same proof can be used to show that \eqref{1} is a computable sequence of reals merely by incorporating the indices $n$ and $m$.
+
+Given $f, g \in \mathscr{C}$, we know $\exists \; \left\{p_{n}\right\}, \left\{q_{n}\right\}$ such that
+\[\left\|p_{n} - f\right\| = \max_{-1\leq x \leq1} \left|p_{n}(x) - f(x)\right| \leq 2^{-n}\]
+
+and similarly,
+\[\left\|q_{n} - g\right\| = \max_{-1\leq x \leq1} \left|q_{n}(x) - g(x)\right| \leq 2^{-n}.\]
+
+To show 
+\[\int_{-1}^{1}f(x)g(x)dx\]
+
+is a computable real number, we demonstrate that
+\begin{equation}
+\label{2}\left|\int_{-1}^{1}f(x)g(x)dx - \int_{-1}^{1}p_{n}(x)q_{n}(x)dx\right| \leq 2^{-n}.
+\end{equation}
+
+Note that \eqref{2} simplifies to
+\[\left|\int_{-1}^{1}\left(f(x)g(x) - p_{n}(x)q_{n}(x)\right)dx\right|.\]
+
+Continuing, this is equivalent to
+\begin{align}
+\left|\int_{-1}^{1}\left(f(x)g(x) - p_{n}(x)g(x) + p_{n}(x)g(x) - p_n{n}(x)q_{n}(x)\right)dx\right| \notag \\
+\leq \int_{-1}^{1}\left|f(x) - p_{n}(x)\right| \left|g(x)\right|dx + \int_{-1}^{1}\left|p_{n}(x)\right| \left|g(x) - q_{n}(x)\right|dx \notag \\
+\leq 2^{-n}\int_{-1}^{1}\left|g(x)\right|dx | +  2^{-n}\int_{-1}^{1}\left|p_{n}(x)\right|dx \label{3}.
+\end{align}
+
+We may find an upper bound for $g(x)$ by observing that
+\[\left\|g - q_{n}(x)\right\| = \max_{-1\leq x \leq1} \left|q_{n}(x) - g(x)\right| \leq 2^{-n}\]
+
+implies
+\[\left\|g - q_{1}(x)\right\| = \max_{-1\leq x \leq1} \left|q_{1}(x) - g(x)\right| \leq 2^{-1}\]
+
+from which it follows that
+\[q_{1}(x) - \frac{1}{2} \leq g(x) \leq q_{1} + \frac{1}{2}\]
+
+and so
+\begin{align*}
+\max_{-1 \leq x \leq 1}\left|g(x)\right| \leq \max_{-1\leq x \leq 1}\left|q_{1}(x)\right| \\
+\leq \left|c_{0}\right| + \left|c_{1}\right| + \cdots + \left|c_{n}\right| + \frac{1}{2} = \alpha
+\end{align*}
+
+where $c_{0}, c_{1}, \cdots, c_{n}$ are the coefficients of the rational polynomial $q_{1}$.
+
+Similarly, we can demonstrate that
+\begin{align*}
+\max_{-1 \leq x \leq 1}\left|p_{n}(x)\right| \leq \max_{-1\leq x \leq 1}\left|p_{1}(x)\right| \\
+\leq \left|b_{0}\right| + \left|b_{1}\right| + \cdots + \left|b_{n}\right| + 1 = \beta
+\end{align*}
+
+where $b_{0}, b_{1}, \cdots, b_{n}$ are the coefficients of the rational polynomial $p_{1}$.  This is a consequence of the fact that $\left|f(x) - p_{n}(x)\right| \leq 2^{-n}$ implies
+\[f(x) - 2^{-n} \leq p_{n}(x) \leq f(x) + 2^{-n}\]
+
+and thus
+\[p_{1}(x) - 2^{-1} - 2^{-n} \leq p_{n}(x) \leq p_{1}(x) + 2^{-1} + 2^{-n}.\]
+
+Now define $e:\mathbb{N} \to \mathbb{N}$ as
+\[e(n) = n + \lfloor\alpha\rfloor + \lfloor\beta\rfloor + 3.\]
+
+Note that $e$ is a computable function.  We can then define the rational function $P_{n}Q_{n} = p_{e(n)}q_{e(n)}$ $\forall n \in \mathbb{N}$.  Note that $\left\{P_{n}Q_{n}\right\}$ is a computable sequence of rational polynomials, and it follows that
+$\displaystyle\int_{-1}^{1}P_{n}(x)Q_{n}(x)dx$ is a computable sequence of rational numbers.  Therefore, by \eqref{3},
+
+\begin{align*}
+\left|\int_{-1}^{1}f(x)g(x)dx - \int_{-1}^{1}P_{n}(x)Q_{n}(x)dx\right| \\
+& \leq 2^{-e(n)} \int_{-1}^{1}\left|g(x)\right|dx + 2^{-e(n)} \int_{-1}^{1}\left|P_{e(n)}(x)\right|dx \\
+& < 2^{-(n + \lfloor\alpha\rfloor + \lfloor\beta\rfloor + 3} \cdot 2\alpha + 2^{-(n + \lfloor\alpha\rfloor + \lfloor\beta\rfloor + 3} \cdot 2\beta \\
+& < 2^{-(n + 2)} + 2^{-(n + 2)} < 2^{-n}.
+\end{align*}
+
+Clearly, $\displaystyle\int_{-1}^{1}f(x)g(x)dx$ is a computable real number.
+
+\section{Pre-Hilbert Spaces}
+
+Inner product spaces are frequently denoted ``pre-Hilbert'' spaces.  A Hilbert space is a complete normed vector space, so the completion of an inner product space is a Hilbert space.  For example, the set of $\mathbb{R}$ reals is complete.  However, the set $C\left[-1, 1\right]$ with respect to $\left\|f\right\|_{\langle\rangle}$ is not.
+
+With respect to the computability structure $\mathscr{C}$ of an inner product space $X$, we expect its completion should comprise a computability structure on $\overline{X}$, the completion of $X$.  This requires a fourth axiom.
+
+\begin{list}{}{}
+ \item \textbf{axiom IV} (limits) Let $\mathscr{C}$ be the set of all computable sequences on an inner product space $X$.  Let $\mathscr{K}\supseteq\mathscr{C}$ be the collection of sequences in $\overline{X}$ which satisfy axioms I - III.  If $\left\{x_{kn}\right\} \in \mathscr{K}$ and $x_{kn} \to x_n$ as $k \to \infty$ effectively in $\left\|\cdot\right\|_{\langle\rangle}$, then $\left\{x_n\right\} \in \mathscr{K}$.
+\end{list}
+
+The most obvious example of a complete inner product space is $\mathbb{R}$, with the inner product as defined above.    It is also fruitful to consider $C\left[-1, 1\right]$, which is itself not complete.  Consider the sequence $\left\{f_n\right\}$ of continuous functions on the closed interval $\left[-1, 1\right]$ defined as
+$$f_{n}(x) =
+\left\{
+    \begin{array}{ll}
+	0 & \mbox{for } -1 \leq x \leq 0 \\
+	1 & \mbox{for } \frac{1}{n} \leq x \leq 1 \\
+	\mbox{affine } & \mbox{for } 0 < x < \frac{1}{n}
+    \end{array}
+\right.$$
+
+This is clearly a Cauchy sequence in $C\left[-1, 1\right]$, but it does not converge to a continuous function on the interval.
+
+However, as we've previously demonstrated, $C\left[-1, 1\right]$ is an inner product space with norm as above.  If we extend $C\left[-1, 1\right]$ to include the limits of all continous functions on $\left[-1, 1\right]$, we complete $C\left[-1, 1\right]$ and the result is a Hilbert space.  Specifically, this is $L^2\left[-1, 1\right]$, classically described as the space of all measurable functions $f$ on $\left[-1, 1\right]$ for which the $L^p$-norm $\left\|f\right\|_p$, defined $$\left\|f\right\|_p = \left(\int_a^b \left|f(x)\right|^p dx \right)^{\frac{1}{p}},$$ is finite.
+
+Moreover, we are interested in the computability of such a completion.  As noted above, we can define a computability structure on $C\left[-1, 1\right]$.  We extend $\mathscr{C}$, the collection of computable sequences on $C\left[-1, 1\right]$, by defining $\mathscr{K}$, the collection of all computable sequences on $C\left[-1, 1\right]$ such that axioms I--III are satisfied, and further, such that if $\{x_{km}\}$ is in $\mathscr{K}$, and $x_{kn} \rightarrow x_{n}$ as $k \rightarrow \infty$ effectively in $\| \cdot \|_{\langle\rangle}$.  Thereby, we include in $\mathscr{K}$ the limits of all computable sequences of continous functions on $\left[-1, -1\right]$, which completes $\mathscr{C}$.  This result is discussed in \cite{PR89}, in which it is shown that $\mathscr{K}$ satisfies axioms I--IV, thereby confirming that $\mathscr{K}$ is a computability structure on $\overline{X}$.
+
+
+\bibliographystyle{plain}
+%\bibliography{/home/cca/bib/literature}
+
+\begin{thebibliography}{10}
+
+\bibitem{BSS89}
+L. Blum and M. Shub and S. Smale.
+\newblock On a theory of
+computation and complexity over the real numbers: {NP}-completeness, recursive functions and universal machines.
+\newblock {\em Bull. Amer. Math. Soc.}, Vol.21, No.1, pp.1-46, 1989.
+
+\bibitem{Grz55}
+A. Grzegorczyk.
+\newblock Computable functionals.
+\newblock {\em Fund. Math.}, Vol.42, pp.168-202, 1955.
+
+\bibitem{Maz63}
+S. Mazur.
+\newblock Computable Analysis.
+\newblock PWN, 1963.
+
+\bibitem{PR89}
+M. B. Pour-El and J. I. Richards.
+\newblock Computability in Analysis and Physics.
+\newblock {\em Springer}, 1989.
+
+\bibitem{Tur36}
+A. M. Turing.
+ \newblock On computable numbers, with an application to the
+ {E}ntscheidungsproblem.
+ \newblock {\em Proc. London Math. Soc.}, Vol.2, No.42,
+ pp.230-265,1936.
+
+\bibitem{Wei00}
+K. Weihrauch.
+\newblock {\em Computable Analysis}.
+\newblock Springer, Berlin, 2000.
+
+
+
+\end{thebibliography}
+
+
+\end{document}
+
+ TODO:
+  - DISCUSS computability structure on inner product space L^2[-1, 1]
