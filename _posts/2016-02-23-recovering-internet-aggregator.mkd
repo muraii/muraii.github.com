@@ -1,0 +1,15 @@
+---
+layout: post
+title: I'm a recovering internet aggregator. 
+tags:
+ - essay
+published: true
+excerpt: For too long now I've harrassed and harried those closest to me with an increasingly &ldquo;eclectic&rdquo; (read&#58;&ldquo;What the hell is this already?&rdquo;) stream of links to pit stops on the information superhighway, be they articles I think are of interest or arrestingly funny things about cats or nihilism. 
+---
+
+<!-- -->
+Today it occurred to me that with so many rich tools available _on the line_, and especially as I so highly value the asynchronicity with which people can communicate using them (read: "I'm not in the right mood now and I'll be grumpy if you require me to stop my *Important Thing &trade;* to read about the future of humanity"), there is a better way.
+
+Starting today I'm going to begin collecting these curios in one Dropbox Paper document per person. It'll give me a chance to see what Dropbox Paper's about, and will allow me to manage a pretty diverse set of rich media. One of the things I appreciate about Slack is its fetching a preview of most links and such, and embedding playable video, so no one needs to open another thing to enjoy the stuff. Essentially, I'm recreating the tumblelog but in a more-intimate, bespoke way. At least until I get tired of it (read: "It's the internet I can't get tired of it").
+
+If I'm truly industriously ambitious&mdash;or ambitiously industrious&mdash;I'll make some kind of hack tool that lets me do this very quickly. But this is unlikely! The more time I spend making things, the more of the internet that just rushes by, unseen, unloved, lonely.

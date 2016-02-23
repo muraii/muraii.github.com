@@ -1,0 +1,9 @@
+---
+layout: post
+title: I need a morality simulator.
+tags:
+ - essay
+published: true
+excerpt: 
+---
+<!-- -->
