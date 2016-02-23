@@ -4,7 +4,7 @@ title: Things are looking up.
 tags:
  - essay
 published: true
-comments: true
+comments:
 excerpt: Spring approaches, same as every year, notwithstanding some noisiness in the date or intensity of its approach. What to look forward to? New Year's resolutions feel so preemptive or even premature. Might prefer spring resolutions, when the motive energy for improvement is at the ready goading us on to our illusions of future productivity.
 ---
 <!-- Spring approaches, same as every year, notwithstanding some noisiness in the date or intensity of its approach. What to look forward to? New Year's resolutions feel so preemptive or even premature. Might prefer spring resolutions, when the motive energy for improvement is at the ready goading us on to our illusions of future productivity. -->
