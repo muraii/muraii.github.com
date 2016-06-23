@@ -2,5 +2,5 @@ exclude: [WP-themeSourceFiles, wordpress.xml, erectlocution.wordpress.2011-09-01
 # auto: true
 # auto: true --> deprecated
 # server: false --> deprecated
-markdown: rdiscount
+markdown: kramdown
 excerpt_seperator: <!--more-->
