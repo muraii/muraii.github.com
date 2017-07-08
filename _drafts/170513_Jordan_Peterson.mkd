@@ -1,0 +1,26 @@
+---
+layout: post
+title: 
+tags:
+ - essay
+published: false
+comments: false
+excerpt:
+---
+
+On the nature of gender and gender pronouns.
+
+#Introduction
+
+Jordan Peterson has become something of a firebrand and spokesperson for an erstwhile intellectually conservative reaction to the liberal embrace of pronoun neologisms. This will be a flawed-but-earnest critique of the general claims Peterson makes as well as, to be frank, some disassembly of his intellectual credibility on the matter.
+
+#Gender
+    - What is it?
+    - Biological claims.
+    - Sociolization claims.
+
+#Language
+    - Are pronouns more like their proper-noun antecedents or adjectives (relevant specifically to the types of claims Peterson makes)?
+    - Peterson mentions the book _The Secret Life of Pronouns_ but it seems to be a non sequitur.
+    - How does the pronoun attribution to what is called a "closed linguistic category" bear on the topic of introducing new pronouns, if at all?
+        - Post hoc vs. deterministic

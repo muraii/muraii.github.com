@@ -1,0 +1,39 @@
+---
+layout: post
+title: 
+tags:
+ - essay
+published: false
+comments: false
+excerpt:
+---
+
+[Tumblr post about cis gender people be like, with "My name is Amy" "Well you look like an Emily to me I can't help that".]
+
+I don't even know where to start with this. No one needs a gentle introduction to the controversy around whether people should be allowed to choose their pronoun and expect others to honor that choice. It's so nonsensical on its face to do anything else I don't have it in me to write a cogent thesis statement around which to build a five-paragraph essay. Still, it's worth looking at some of the things that convince people that this is an absurd practice (to be charitable)--or the purported evidence that people use to justify their knowing ignorance (to be not so charitable).
+
+##Grammar
+
+The English language is relatively tough. IANAL but I've heard it said in so many contexts and from so many sources that it seems well-substantiated that English is among the hardest languages to learn. (That feels like some exceptionalism at work but who knows.) Still, lots of folks lay down the history and importance of English pronouns as evidence that we shouldn't be messing around with them, that there's no precedent nor room for "zer" or [LITANY OF ALT PRONOUNS]. Among the more-prominent of these folks lately, so far as I gather, is Jordan Peterson, a professor of [SOME KIND OF PSYCHOLOGY AT SOME KIND OF UNIVERSITY]. In the video below, Dr. Peterson tells his students and the world about the type of category to which pronouns belong, a ("closed linguistic category") [LINK]. "[T]hey don't change," says Dr. Peterson. A simple reading of (the Wikipedia article) [LINK] bears this out, to whatever extent you trust Wikipedia (I like it fine and tire of the sarcastic pissing about how it's garbage). The video strays a bit into a discussion about whether one can demand another respect them, and Peterson's response to this shows us a pattern to his rhetoric.
+
+{% youtube "VIDEO LINK HERE" %}
+
+It is true that pronouns comprise a closed linqguistic group. Members of such groups tend not to change. Pronouns in particular are not only apparently fairly static, but there is evidence that the patterns of their usage are correlated to the emotional state of their users. It seems uncontroversial to say that pronouns are important and have staying power.
+
+Thing is, this classification of pronouns as being in a closed linguistic group is post hoc. The classification is dependent on the pronouns' usage, not the other way 'round. You need only do some very cursory (even lazy) searching online to find ample examples of how pronouns have changed relatively recently, including the use of variously gendered pronouns. They may change little relative to other classes of linguistic objects but they change.
+
+I can't see a reason that that's controversial. The human species creates language, creates its grammars, and our codification of those grammars are adapted. Again, this seems painfully obvious; one need only look at the multiple definitions of most words in the Oxford English Dictionary to see evidence of the growth and adaptation of the English langauge and its forebears.
+
+[SOMEWHERE IN HERE PERHAPS MENTION THE WHOLE "MULTIPLICATIVE COMPLEXITY" GARBAGE, AS IF THAT'S A REASON NOT TO RESPECT A PERSON'S PREFERRED PRONOUN WTF]
+
+Peterson for his part tries to prove his point using a tactic called proof by contradiction. The basic format to prove something is true or false is to assume the opposite and demonstrate the resultant contradiction(s). He's actually trying to prove a slightly stronger point, that the rules or ethics of pronoun usage are comparable to adjective usage, and further that because we can't dictate which adjectives are used to describe us that we can't dictate which pronouns are used to describe us. He assumes for the sake of argument that one _can_, which seems absurd, and so then the absurdity is transmitted to the pronoun usage [NEEDS LOTS OF WORK HERE].
+
+This is a flimsy set of premises. Pronouns are not primarily adjectival and bear more similarity to proper nouns. Pronouns are strongly associated with their antecedents, the object of proper nouns. This is why the Tumblr quote above is so fitting: I am in no position to tell Dr. Peterson how he should prefer to be addressed, and no matter how nonchalant or detached he is about it, _that is his prerogative_ and is not a causal force for others. This is a semantic straw man, not unlike the one Peterson constructs about respect: of _course_ no one is actually stipulating _how someone should feel nor the qualia of their respectful attention_. They are describing the sort of _behavior_ that connotes respect or being respectful.
+
+##Freedom
+
+And yes of course Dr. [CHANGE HONORIFICS THROUGHOUT THE POST MAYBE, OR MAYBE TOO GLIB AND CHEEKY] can decline to feel or show respect for someone. That is a choice. But I don't find that Dr. Peterson is advocating for a breakdown of social relationships. More to the point, though he doesn't specify as much in this video, I think Peterson subscribes to a social philosophy wherein all parties are presumed to begin life with a clean state and earn, on the merit of their talents and effort alone, all the respect and social capital the hope to achieve.
+
+> With regards to respect, you know you said human civilization would be a lot better if we respect one another, and I actually don't believe that at all. I believe that human civilization progresses and maintains itself when we respect people who've earned _respect_. You don't just respect everybody _randomly_. What the hell use is respect if you respect people _randomly_? It's like inflating the currency.
+
+[ALL FOR NOW 170314 @ 1137]

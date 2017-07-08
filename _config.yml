@@ -4,3 +4,5 @@ exclude: [WP-themeSourceFiles, wordpress.xml, erectlocution.wordpress.2011-09-01
 # server: false --> deprecated
 markdown: kramdown
 excerpt_seperator: <!--more-->
+gems: [jekyll-youtube]
+ # This will require each of these gems automatically.

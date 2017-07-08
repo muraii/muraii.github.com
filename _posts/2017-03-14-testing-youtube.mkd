@@ -1,0 +1,13 @@
+---
+layout: post
+title: Here is the thing where the stuff would be.
+tags:
+ - essay
+published: true
+comments: false
+excerpt: This is a thing thint thinag gao9uoiau  aijdf aosiu ak faoiuso .
+---
+
+Now we test the stuff.
+
+{% youtube "https://www.youtube.com/watch?v=iYharDHUVLA" %}
